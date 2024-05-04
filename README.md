@@ -16,4 +16,4 @@ Para ejecutar el proyecto te recomiendo correrlo desde [Visual Studio Code](http
 - npx json-server --watch db.json --port 3001
 
 Para correr la vista en un servidor, como ya habia mensionado es necesario Live Server, cuando ya se ha instalado la extension solo basta con darle en Go Live y listo
-![Descripción de la imagen](./resources/imagenREADME1.jpg)
+![Descripción de la imagen](resources\imagenREADME1.png)
