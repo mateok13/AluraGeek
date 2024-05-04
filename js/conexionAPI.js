@@ -8,7 +8,8 @@ async function listarTarjetas(){
 async function obtenerUltimoId() {
     const tarjetas = await listarTarjetas();
     const ultimoId = tarjetas.reduce((maxId, tarjeta) => {
-        return tarjeta.id > maxId ? tarjeta.id : maxId;
+        const tarjetaId = parseInt(tarjeta.id);
+        return tarjetaId > maxId ? tarjetaId : maxId;
     }, 0);
     return ultimoId + 1;
 }
@@ -21,7 +22,7 @@ async function agregarTarjeta(nombre, imagen, precio){
         headers: {"Content-type":"application.json"},
         body:JSON.stringify(
             {
-                id:ultimoId,
+                id:ultimoId.toString(),
                 nombre:nombre,
                 imagen:imagen,
                 precio:precio
