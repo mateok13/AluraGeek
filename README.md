@@ -10,7 +10,8 @@
 Plataforma que permite agregar, listar y eliminar items de una base de datos Json-Server.
 
 ## Ejecutar el proyecto
-Para ejecutar el proyecto te recomiendo correrlo desde [Visual Studio Code](https://code.visualstudio.com/) e instalar la extensión de [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para correr la vista. Para la base de datos debes tener instalado [Node.js](https://nodejs.org/en/download/current), y en la terminal de Visual Studio Code ejecutar los siguientes comandos:
+Para ejecutar el proyecto te recomiendo correrlo desde <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> e instalar la extensión de Live Server para correr la vista. Para la base de datos debes tener instalado <a href="https://nodejs.org/en/download/current" target="_blank">Node.js</a>, y en la terminal de Visual Studio Code ejecutar los siguientes comandos:
+
 - npm init
 - npm install json-server
 - npx json-server --watch db.json --port 3001
