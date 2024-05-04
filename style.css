@@ -1,0 +1,161 @@
+:root {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+header{
+    height: 80px;
+}
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 70px;
+}
+
+.contenidoProductos{
+    padding: 20px;
+    width: 70%;
+}
+
+.contenidoFormulario{
+    padding: 20px;
+    width: 30%;
+}
+
+.titulo{
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contenedorImagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.imagenTarjeta{
+    height: inherit;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
+    width: calc(33% - 20px);
+    background-color: #9303A6;
+    color: #ffff;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.precioTarjeta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trash{
+    height: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input{
+    height: 20px;
+    border: 2px solid #03318C;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input::placeholder,.botonLimpiar{
+    color: #03318C;
+    font-weight: bold;
+}
+
+.botones{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.botonEnviar{
+    background-color: #03318C;
+    color: #ffff;
+}
+
+button{
+    width: 50%;
+    height: 40px;
+    border: 2px solid #03318C;
+    border-radius: 10px;
+}
+
+footer{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contenedorLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+}
+
+.logo{
+    height: 60px;
+}
+
+.comunExtremos{
+    background-color: #5D04D9;
+    color: #ffff;
+}
+
+.alura{
+    color: #ffffff9f;
+}
+
+@media screen and (max-width: 600px) {
+    header, footer{
+        height: auto;
+    }
+
+    .contenido{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .contenidoProductos{
+        order: 1;
+    }
+
+    .contenidoFormulario{
+        order: -1;
+    }
+}

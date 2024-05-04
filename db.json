@@ -1,0 +1,34 @@
+{
+  "tarjetas": [
+    {
+      "id": "1",
+      "nombre": "Rick Sanchez",
+      "imagen": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      "precio": 20
+    },
+    {
+      "id": "2",
+      "nombre": "Morty Smith",
+      "imagen": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+      "precio": 20
+    },
+    {
+      "id": "3",
+      "nombre": "Summer Smith",
+      "imagen": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+      "precio": 20
+    },
+    {
+      "id": "4",
+      "nombre": "Beth Smith",
+      "imagen": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+      "precio": 20
+    },
+    {
+      "id": "5",
+      "nombre": "Jerry Smith",
+      "imagen": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+      "precio": 20
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+    <meta charset="utf-8">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="comunExtremos">
+        <div class="contenedorLogo">
+            <img class="logo" src="./resources/logo.png" alt="">
+            <p>AluraGeek</p>
+        </div>
+    </header>
+    <main>
+        <div class="contenido">
+            <div class="contenidoProductos">
+                <h1 class="titulo">MIS PRODUCTOS:</h1>
+                <div class="productos">
+                    
+                </div>
+            </div>
+            <div class="contenidoFormulario">
+                <h1 class="titulo">AGREGAR</br>PRODUCTO:</h1>
+                <form action="submit">
+                    <input type="text" id="nombre" name="nombre" placeholder="nombre..." required>
+                    <input type="number" id="precio" name="precio" placeholder="precio..." required>
+                    <input type="text" id="imagen" name="imagen" placeholder="imagen...">
+
+                    <div class="botones">
+                        <button class="botonEnviar" type="submit">Enviar</button>
+                        <button class="botonLimpiar" type="button">Limpiar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="comunExtremos">
+        <div class="contenedorLogo">
+            <img class="logo" src="./resources/logo.png" alt="">
+            <p>AluraGeek</p>
+        </div>
+        <p>DESARROLLADO POR JHONNY MATEO ROSERO CORTES</p>
+        <p class="alura">ALURA LATAM - 2024</p>
+    </footer>
+    <script src="./js/script.js" type="module"></script>
+</body>
+
+</html>
