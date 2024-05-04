@@ -29,12 +29,6 @@
       "nombre": "Jerry Smith",
       "imagen": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
       "precio": 20
-    },
-    {
-      "id": "[object Promise]",
-      "nombre": "Revy",
-      "imagen": "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
-      "precio": 132
     }
   ]
 }
