@@ -16,7 +16,5 @@ Para ejecutar el proyecto te recomiendo correrlo desde <a href="https://code.vis
 2. npm install json-server
 3. npx json-server --watch db.json --port 3001
 
-En este mismo orden
-
 Para correr la vista en un servidor, como ya habia mensionado es necesario Live Server, cuando ya se ha instalado la extension solo basta con darle en Go Live y listo
 ![](resources/imagenREADME1.png)
