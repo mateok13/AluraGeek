@@ -118,6 +118,7 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    text-align: center;
 }
 
 .contenedorLogo {
@@ -144,12 +145,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    header, footer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
     .logo {
         height: 30px;
     }
@@ -157,7 +152,6 @@ footer {
     .contenido {
         display: flex;
         flex-direction: column;
-        width: 100%;
         padding: 20px;
     }
 
@@ -182,9 +176,5 @@ footer {
         align-items: center;
         justify-content: center;
         order: -1;
-    }
-
-    .comunExtremos{
-        width: 100%;
     }
 }

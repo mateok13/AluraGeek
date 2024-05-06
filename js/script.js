@@ -32,12 +32,22 @@ const formulario = document.querySelector("form");
 
 async function agregarTarjeta(evento) {
     evento.preventDefault();
+    const formulario = new FormData(evento.target);
 
-    const nombre = document.getElementById("nombre").value;
-    const precio = parseFloat(document.getElementById("precio").value);
-    const imagen = document.getElementById("imagen").value;
+    const nuevaTarjeta = {};
+    formulario.forEach((value, key) => {
+        nuevaTarjeta[key] = value;
+    });
 
-    await conexionAPI.agregarTarjeta(nombre,imagen,precio);
+    const nombre = nuevaTarjeta.nombre;
+    const precio = nuevaTarjeta.precio;
+    const imagen = nuevaTarjeta.imagen;
+
+    const tarjetaAgregada = await conexionAPI.agregarTarjeta(nombre,imagen,precio);
+
+    if(tarjetaAgregada){
+        limpiarCampos();
+    }
 }
 
 formulario.addEventListener("submit", evento => agregarTarjeta(evento));
