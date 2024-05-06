@@ -18,3 +18,7 @@ Para ejecutar el proyecto te recomiendo correrlo desde <a href="https://code.vis
 
 Para correr la vista en un servidor, como ya habia mensionado es necesario Live Server, cuando ya se ha instalado la extension solo basta con darle en Go Live y listo
 ![](resources/imagenREADME1.png)
+
+## Deploy del proyecto
+Para desplegar el proyecto y que me funcione la base de datos de json-server en linea use el siguiente endpoint https://my-json-server.typicode.com/mateok13/AluraGeek/tarjetas, <a href="https://my-json-server.typicode.com/" target="_blank">My Json Server</a> te permite manejar los db.json online solo debes colocar el link de la pagina <span style="color:yellow">https://my-json-server.typicode.com/</span> seguido de tu username de github <span style="color:blue">username/</span> y finalizando con el nombre del repositorio en donde se encuentra el archivo db.json <span style="color:red">nombre_repositorio/</span> por ejemplos <a href="https://code.visualstudio.com/" target="_blank">**"https://my-json-server.typicode.com/mateok13/AluraGeek/"**
+</a>
