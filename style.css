@@ -135,7 +135,6 @@ footer {
 .comunExtremos {
     background-color: #5D04D9;
     color: #ffff;
-    width: 100%;
     height: auto;
     padding: 20px;
 }
@@ -183,5 +182,9 @@ footer {
         align-items: center;
         justify-content: center;
         order: -1;
+    }
+
+    .comunExtremos{
+        width: 100%;
     }
 }
