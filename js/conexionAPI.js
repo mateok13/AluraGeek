@@ -1,5 +1,5 @@
 async function listarTarjetas(){
-    const conexion = await fetch("http://localhost:3001/tarjetas");
+    const conexion = await fetch("https://my-json-server.typicode.com/mateok13/AluraGeek/tarjetas");
     const conexionConvertida = await conexion.json();
 
     return conexionConvertida;
@@ -17,7 +17,7 @@ async function obtenerUltimoId() {
 
 async function agregarTarjeta(nombre, imagen, precio){
     const ultimoId = await obtenerUltimoId();
-    const conexion = await fetch("http://localhost:3001/tarjetas",{
+    const conexion = await fetch("https://my-json-server.typicode.com/mateok13/AluraGeek/tarjetas",{
         method: "POST",
         headers: {"Content-type":"application.json"},
         body:JSON.stringify(
@@ -35,7 +35,7 @@ async function agregarTarjeta(nombre, imagen, precio){
 }
 
 async function eliminarTarjeta(id){
-    const conexion = await fetch(`http://localhost:3001/tarjetas/${id}`, {
+    const conexion = await fetch(`https://my-json-server.typicode.com/mateok13/AluraGeek/tarjetas/${id}`, {
         method: "DELETE"
     });
 
