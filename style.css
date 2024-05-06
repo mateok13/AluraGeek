@@ -1,10 +1,11 @@
-* {
+body {
     font-family: 'Pixelify Sans', sans-serif;
 }
 
 .contenido {
     display: flex;
     justify-content: space-between;
+    width: 100%;
     padding: 70px;
     gap: 50px;
 }
@@ -18,6 +19,7 @@
 }
 
 .titulo {
+    width: 100%;
     padding-bottom: 20px;
     font-size: 24px;
     font-weight: bold;
@@ -27,6 +29,7 @@
 .productos {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     gap: 10px;
 }
 
@@ -64,6 +67,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .trash {
@@ -93,6 +97,7 @@ input::placeholder,
 
 .botones {
     display: flex;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -141,6 +146,12 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    header, footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .logo {
         height: 30px;
     }
@@ -150,12 +161,13 @@ footer {
         flex-direction: column;
         width: 100%;
         padding: 20px;
-        gap: 0px;
     }
 
     .contenidoProductos {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         padding-top: 20px;
         order: 1;
         width: 100%;
